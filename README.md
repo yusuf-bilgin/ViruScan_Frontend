@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# ViruScan_Frontend
+This is the frontend of full-stack application I developed in 3-4 weeks using Spring Boot and React. In the backend, I execute a script file to access Windows Defender through PowerShell, scanning a requested file. The scanning result, along with information such as the uploaded file's name, size, type, and more, is then stored in the database. On the frontend, I attempted to automate this process to some extent. After users complete registration and login processes, they can upload files for virus scanning. The information about the uploaded files can be viewed in a table. User information such as passwords is hashed with SHA-256 before being stored in the database. Users with matching email and password in the 'user' table can access the 'files' table.
+
+Spring Boot ve React kullanarak 3 4 haftada yapmış olduğum fullstack uygulamanın frontend bölümüdür. Backend'de bir script dosyası çalıştırılarak powershell'den Windows Defender'a erişim sağlıyorum ve burada istenen dosyayı taratıyorum. Tarama sonucunu, yüklenen dosyanın tarama sonucu, isim, boyut, tür vb. bilgilerini veritabanına kaydediyorum. Frontend'de ise bunu bir nevi otomatize hale getirmeye çalıştım. Kullanıcı kayıt ve giriş işlemlerini yaptıktan sonra virüs taraması için dosya yükleyebilir, yüklenen dosyaların bilgilerini tabloda görüntüleyebilir. Kullanıcının şifre gibi bilgileri SHA-256 ile hashlenerek veritabanına kayıt edilmiştir. 'user'tablosunda mail ve parolası ile eşleşen kullanıcılar 'files' tablosuna erişim sağlayabilir
+>>>>>>> c355b1513b1fbae07d5c4f3e269c3a46a468c51f
