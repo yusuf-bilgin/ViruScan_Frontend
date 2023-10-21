@@ -1,0 +1,30 @@
+.upload-box {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.upload-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 15px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* Düğme rengi değişimini yumuşatmak için */
+}
+
+.upload-button:hover {
+    background-color: #0056b3;
+    /* Fare üzerine gelindiğinde rengi değiştirin */
+}
+
+.upload-file-info {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+    padding: 20px;
+}

@@ -1,0 +1,15 @@
+/* AppBarStyle.css */
+.container {
+    padding-top: 64px; /* AppBar yüksekliği kadar bir üst marj ekleyin */
+}
+
+.app-bar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;   
+    background-color: #fff; /* Arka plan rengini ayarlayın */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Hafif bir gölge ekleyin */
+    z-index: 1000;   /* Diğer öğelerin üzerinde görünmesini sağlar */
+  }
+  
